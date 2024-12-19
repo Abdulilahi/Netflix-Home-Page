@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        margin:0px;
+       }
+        .container{
+            margin: none;
+            padding: none;
+            display: flex;
+            flex-direction: column;
+            height: 1000px;
+            width: 100%;
+            
+        }
+        
+        .sect1{
+            background-color: black;
+            /* position: absolute; */
+            height: 650px;
+            width: 100%;
+            /* margin: 3px white; */
+            /* padding: 90px; */
+
+        }
+        /* .container section{
+            position: absolute;
+        } */
+        .sect1 img{
+            position: absolute;
+        }
+        .backimg{
+            opacity: 0.5;
+        }
+        .backjpeg{
+            
+            width: 99%;
+            height: 650px;
+            opacity: 0.3;
+            
+        }
+        .logo{
+            padding-top: 5px;
+            padding-left:130px;
+            height: 100px;
+            width: 170px;
+        }
+        .sect2{
+            margin: 0px;
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 45%;
+            padding-left: 15%;
+            
+            
+                        
+        }
+        .txt{
+            /* <!--font-family:Arial, Helvetica, sans-serif ; */
+            padding-top: 5px;
+            font-size: 50px;
+            text-align: center;
+            font-weight: 2000;
+            margin: 0px;
+        }
+        .txt1{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-top: 5px;
+            font-size: px;
+            text-align: center;
+            margin: 20px;
+
+            font-weight: 1x;
+
+        }
+        .txt2{
+            /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            padding-top: 5px;
+            font-size: 30px;
+            text-align: center;
+            margin: 20px;
+            font-style: italic;
+            font-weight: 100; */
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-top: 5px;
+            font-size: px;
+            text-align: center;
+            margin: 20px;
+
+            font-weight: 1x;
+        }
+        /* .boxes{
+            display: flex;
+            justify-content: center;
+        } */
+        .email{
+            margin: 4px;
+            height: 50px;
+            width: 450px;
+            background-color: transparent;
+            border-radius: 4px;
+            
+        }
+        .start{
+            height: 55px;
+            width: 150px;
+            background-color: red;
+            color: white;
+            font-size: larger;
+            border-radius: 4px;
+        }
+        .signin{
+            position: absolute;
+            top: 40px;
+           margin: 0px;
+           border: 0px;
+            padding-left: 950px;
+          /*
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            background-color: red;
+            float: right; */
+            /* padding-left:70px; */
+            /* height: 100px; */
+            /* width: 200px; */
+            /* padding-right: 30px; */
+        }
+        
+       .sect3{
+        
+        background-color: black;
+            display: flex;
+            flex-direction: row;
+            height: 500px;
+            width: 100%;
+            /* margin: 2px white; */
+            /* padding: 2px ; */
+            border-top: 2px solid white;
+       }
+       .sect2txt{
+        /* border-right:2px solid white; */
+        width: 50%;
+        align-items: center;
+        padding-left: 60px;
+       }
+       .last{
+        height: 500px;
+        width: 100vw;
+        background-color: rgb(2, 2, 2);
+        border-top: 2px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       .lastcontent{
+        height: 400px;
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+       }
+       .rect{
+        height: 20px;
+        width: 90%;
+        background-color: blue;
+       }
+       .sect2txt h1,h3{
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+         }
+         .sect2txth1{
+            padding-top: 50px;
+            /* text-align: justify; */
+         }
+         .sect2txth3{
+            padding-top: 0px;
+            padding-left: 100px;
+            padding-right:80px;
+         }
+         .img1{
+
+            padding-top: 100px;
+         }
+         .img2{
+            padding-top: 80px;
+         }
+         .sect3img{
+            padding-left: 100px;
+            /* text-align: justify; */
+         }
+         /* .sect3 .sect2txt .sect2txth1,.sect2txth3{
+            text-align: justify;
+         } */
+         .sect2txth1{
+            padding-left: 100px;
+            padding-right: 150px;
+            text-align: justify;
+         }
+         .sect2txth3{
+            padding-left: 100px;
+         }
+       .img4{
+        padding-top: 50px;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+        <div class="sect1">
+            
+            <div class="imgs">
+                
+                <img class="backjpeg" src="back.jpeg" alt="">
+                
+                <img class="logo" src="back-removebg-preview.png" alt=""> 
+            </div>
+            <div class="language">
+                
+
+            </div>
+        <div class="signin"> 
+            <span class="language">
+            <select name="english"  id="" style="margin-right: 20px; width:150px ;background-color:black;  color: white; border-radius: 5px; border:1px solid white ; height: 30px;">
+                <option value="english" aria-placeholder="lang">English</option>
+                <option value="hindi">हिन्दी</option>
+            </select>
+        </span>
+            
+            <input   type="button" value="Sign In" style="border: 0px; margin: 0px; height: 30px; width: 90px; background-color: red; color: white; border-radius: 5px;">
+            
+        
+        </div>
+    </div>
+        <div class="sect2">
+            <h1 class="txt">
+                Unlimited movies, TV shows and more
+            </h1>
+           
+            <h3 class="txt1"> <b> Watch anywhere. Cancel anytime.</b> </h3>
+            <h3 class="txt2">Ready to watch? Enter your email to create or restart your membership.</h3>
+            <div class="boxes">
+                <input class="email" type="email" placeholder="Email address" style="color:white;">
+                <input class="start" type="button" value="Get started >">
+            </div>
+        </div>
+           
+            <div class="sect3">
+                <div class="sect2txt">
+                   <div class="sect2txth1">  <h1 style="text-align: left;">Enjoy on your TV</h1> </div>
+        <div> 
+                    <h3 class="sect2txth3" style="text-align: left;"> Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.
+                    </h3></div>
+                    </div>
+                <div class="sect2img">
+                    <img class="img1" src="1.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="sect3">
+                
+                <div class="sect3img">
+                    <img class="img1" src="2.png" alt="">
+                </div>
+                <div class="sect2txt" style="text-align: left;">
+                    <div class="sect2txth1" >  <h1 style="text-align: left;">Download your shows to watch offline
+
+
+</h1> </div>
+         <div> 
+                     <h3 class="sect2txth3" style="text-align: left;">Save your favourites easily and always have something to watch. </h3></div>
+                 </div>
+            </div>
+
+            <div class="sect3">
+                <div class="sect2txt">
+                   <div class="sect2txth1">  <h1 style="text-align: left;">Watch everywhere
+
+                    </h1> </div>
+        <div> 
+                    <h3 class="sect2txth3" style="text-align: left;"> Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                    </h3></div>
+                    </div>
+                <div class="sect2img">
+                    <img class="img1" src="3.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="sect3">
+                
+                <div class="sect3img">
+                    <img class="img4" src="4.png" alt="">
+                </div>
+                <div class="sect2txt" style="text-align: left;">
+                    <div class="sect2txth1" >  <h1 style="text-align: left;">Create profiles for kids
+            </h1> </div>
+         <div> 
+                     <h3 class="sect2txth3" style="text-align: left;">                        Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h3></div>
+                 </div>
+            </div>
+            <div class="last">
+                <div class="lastcontent">
+                    <div class="rect"></div>
+                    <div class="rect"></div>
+                    <div class="rect"></div>
+                    <div class="rect"></div>
+                    <div class="rect"></div>
+                </div>
+
+            </div>
+          
+
+
+       
+    </div>
+</body>
+</html>
